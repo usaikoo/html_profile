@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-switcher">Dark Mode</button>
+         <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="home-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Ullamco ipsum aliqua incididunt sint occaecat ad minim in fugiat. Nulla esse mollit irure consectetur commodo eu fugiat excepteur fugiat. Laboris amet do elit mollit mollit velit. Officia sint dolore voluptate duis proident qui tempor. Duis aliquip ad voluptate laborum mollit elit anim mollit. Est sunt labore nulla proident. Labore amet sit anim non nostrud eiusmod cillum officia amet mollit.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Amet deserunt commodo eu consectetur enim pariatur officia velit exercitation anim reprehenderit anim. Nulla pariatur voluptate voluptate aute commodo ipsum qui velit sit veniam cillum laborum. Ipsum aliquip aliqua voluptate laboris est nulla sit et. Nostrud mollit non sint consequat.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>My Projects</h2>
+      <div class="project-gallery">
+        <div>
+          <h3>Project 1</h3>
+          <img width="200" src="https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+          <p>Ad ad ullamco mollit amet voluptate. Cillum ipsum commodo minim minim officia cillum fugiat reprehenderit. Sint quis adipisicing dolore nostrud eiusmod magna aute mollit occaecat anim. Consectetur duis aliquip non pariatur ut qui aliquip dolore laborum do. Sunt irure cupidatat velit labore eiusmod commodo. Magna aliquip aliquip fugiat exercitation.</p>
+        </div>
+        <div>
+          <h3>Project 2</h3>
+                    <img width="200" src="https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+
+          <p>PAmet eiusmod laborum occaecat Lorem qui. Veniam proident sit duis in dolore ut ex dolor. Esse ea in qui eiusmod magna officia occaecat aliqua amet culpa. Voluptate irure do ad voluptate officia exercitation enim qui elit sint. Ad mollit Lorem ipsum esse elit enim adipisicing.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+          <span class="error-message" id="name-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <span class="error-message" id="email-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <span class="error-message" id="message-error"></span>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2024 MyPortfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
